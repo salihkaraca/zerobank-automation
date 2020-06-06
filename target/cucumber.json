@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-06T15:11:10.328Z",
+        "before": [
+          {
+            "result": {
+              "duration": 817000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "login;login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 18000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.zerobank.stepdefs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3520000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.zerobank.stepdefs.LoginStepDefs.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "user enters \"someusername\" and \"password\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "error message should be displayed \"Login and/or password are wrong.\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
